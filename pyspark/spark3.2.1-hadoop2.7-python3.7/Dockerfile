@@ -1,4 +1,4 @@
-FROM john/pyspark-base:3.2.1-hadoop2.7-py3.7
+FROM john/alpine-pyspark:3.2.1-hadoop2.7-py3.7
 
 # ADD Python dependencies
 COPY ./requirements.txt /requirements.txt
